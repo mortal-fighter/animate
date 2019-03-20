@@ -23,3 +23,9 @@ document.getElementById('btn-stop').addEventListener('click', () => {
 	animation.pause()
 
 }, false)
+
+document.getElementById('btn-restart').addEventListener('click', () => {
+	
+	animation.cancel()
+
+}, false)
